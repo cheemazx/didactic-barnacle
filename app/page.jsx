@@ -8,7 +8,7 @@ import styles from './page.module.css'
 import mainStyles from './main.module.css'
 
 export const metadata = {
-    title: 'Магазин часов Rich Tales',
+    title: 'Rich Tales Watch Store',
     description: 'The main section of the portfolio website of Ivan Burenin',
 }
 
@@ -20,11 +20,11 @@ export default function RichHome() {
                     <div className={styles.topInner}>
                         <div className={styles.topLeft}>
                             <h2 className={styles.topTitle}>
-                                Совершенство в каждом тике: погрузитесь в мир драгоценных часов
+                                Perfection in Every Tick: Immerse Yourself in a World of Precious Watches
                             </h2>
-                            <p className={mainStyles.text}>Опробуйте новую коллекцию Invicta, Rollex, Casio и многих других</p>
+                            <p className={mainStyles.text}>Try the new collection of Invicta, Rolex, Casio and many others</p>
                             <Link href='/catalogue'>
-                                <button className={mainStyles.btn}>Каталог</button>
+                                <button className={mainStyles.btn}>Catalogue</button>
                             </Link>
                         </div>
                         <div className={styles.topRight}>
@@ -37,8 +37,8 @@ export default function RichHome() {
             <section className={styles.arrivals}>
                 <div className={mainStyles.container}>
                     <div className={styles.arrivalsInner}>
-                        <h3 className={mainStyles.title}>Новые поступления</h3>
-                        <p className={`${mainStyles.text} ${styles.arrivalsText}`}>Мы рады представить вам наши самые свежие и эксклюзивные поступления в мире дорогих часов. Наша команда усердно работает, чтобы обеспечить вам доступ к последним тенденциям и самым актуальным моделям от ведущих мировых брендов.</p>
+                        <h3 className={mainStyles.title}>New Arrivals</h3>
+                        <p className={`${mainStyles.text} ${styles.arrivalsText}`}>We are pleased to present to you our newest and most exclusive arrivals in the world of expensive watches. Our team works hard to provide you with access to the latest trends and the most relevant models from leading global brands.</p>
                         <HomeSlider/>
                     </div>
                 </div>
@@ -47,13 +47,13 @@ export default function RichHome() {
             <section className={styles.suppliers}>
                 <div className={mainStyles.container}>
                     <div className={styles.suppliersInner}>
-                        <h3 className={mainStyles.title}>Наши поставщики</h3>
+                        <h3 className={mainStyles.title}>Our Suppliers</h3>
                         <p className={`${mainStyles.text} ${styles.suppliersTopText}`}>
-                            Мы гордимся тем, что сотрудничаем только с лучшими и репутационными поставщиками часов в отрасли. Наша цель - предоставить нашим клиентам только высочайшее качество и аутентичные изделия.
+                            We are proud to work only with the best and most reputable watch suppliers in the industry. Our goal is to provide our customers with only the highest quality and authentic products.
                         </p>
                         <RunningStroke/>
                         <p className={`${mainStyles.text} ${styles.suppliersBottomText}`}>
-                            Мы работаем с ведущими мировыми брендами часов, которые известны своим превосходством в техническом мастерстве и инновационных решениях. Наши поставщики имеют богатый опыт и долгую историю в часовой индустрии, что обеспечивает нам доступ к эксклюзивным коллекциям и лимитированным выпускам.
+                            We work with leading global watch brands that are known for their excellence in craftsmanship and innovative solutions. Our suppliers have rich experience and a long history in the watch industry, which gives us access to exclusive collections and limited editions.
                         </p>
                     </div>
                 </div>
@@ -62,9 +62,9 @@ export default function RichHome() {
             <section className={styles.collections}>
                 <div className={mainStyles.container}>
                     <div className={styles.collectionsInner}>
-                        <h3 className={mainStyles.title}>Коллекции</h3>
+                        <h3 className={mainStyles.title}>Collections</h3>
                         <p className={`${mainStyles.text} ${styles.collectionsText}`}>
-                            Погрузитесь в мир коллекций и найдите идеальное часовое сокровище, которое будет служить вам воплощением стиля, роскоши и престижа. Мы гарантируем вам незабываемый опыт покупки.
+                            Immerse yourself in the world of collections and find the perfect watch treasure that will serve as an embodiment of style, luxury and prestige. We guarantee you an unforgettable shopping experience.
                         </p>
                         <div className={styles.collectionsContent}>
                             <HomeCollection img='./rich-tales/collections-images/collection-image1.jpg' title="Gentleman's Reserve"/>
@@ -73,7 +73,7 @@ export default function RichHome() {
                         </div>
                         <div className={styles.collectionsDown}>
                             <Link href='/catalogue'>
-                                <button className={`${mainStyles.btn} ${styles.collectionsBtn}`}>Каталог</button>
+                                <button className={`${mainStyles.btn} ${styles.collectionsBtn}`}>Catalogue</button>
                             </Link>
                         </div>
                     </div>
@@ -84,17 +84,17 @@ export default function RichHome() {
                 <div className={mainStyles.container}>
                     <div className={styles.aboutInner}>
                         <div className={styles.aboutLeft}>
-                            <h3 className={mainStyles.title}>О нас</h3>
+                            <h3 className={mainStyles.title}>About Us</h3>
                             <div className={styles.aboutText}>
                                 <p className={mainStyles.text}>
-                                    Наша миссия - предоставить вам доступ к самым роскошным и качественным моделям часов, которые станут воплощением вашего стиля и престижа. Мы тщательно отбираем каждую модель, чтобы уверенно предлагать вам только лучшее из мира часового искусства.
+                                    Our mission is to provide you with access to the most luxurious and high-quality watch models that will become an embodiment of your style and prestige. We carefully select each model to confidently offer you only the best from the world of watchmaking art.
                                 </p>
                                 <p className={mainStyles.text}>
-                                    Мы гарантируем подлинность всех часов, представленных на нашем сайте. Мы работаем только с официальными поставщиками и дилерами, чтобы обеспечить вам высокое качество и надежность при каждой покупке.
+                                    We guarantee the authenticity of all watches presented on our website. We work only with official suppliers and dealers to ensure high quality and reliability with every purchase.
                                 </p>
                             </div>
                             <Link href='/about'>
-                                <button className={`${mainStyles.btn} ${styles.aboutBtn}`}>Подробнее</button>
+                                <button className={`${mainStyles.btn} ${styles.aboutBtn}`}>Learn More</button>
                             </Link>
                         </div>
                         <div className={styles.aboutRight}>

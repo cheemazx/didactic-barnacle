@@ -6,7 +6,7 @@ import styles from './page.module.css'
 import mainStyles from '../main.module.css'
 
 export const metadata = {
-    title: 'О Rich Tales',
+    title: 'About Rich Tales',
     description: 'The main section of the portfolio website of Ivan Burenin',
 }
 
@@ -15,26 +15,26 @@ export default function About() {
         <section className={styles.aboutPage}>
             <div className={mainStyles.container}>
                 <div className={styles.aboutInner}>
-                    <h3 className={mainStyles.title}>Добро пожаловать в мир RICH TALES </h3>
+                    <h3 className={mainStyles.title}>Welcome to the World of RICH TALES </h3>
                     <div className={styles.textContainer}>
                         <p className={mainStyles.text}>
-                            Место, где роскошь и история сочетаются в каждом часовом шедевре. Мы являемся магазином, специализирующимся на продаже дорогих часов от известных мировых брендов.
+                            A place where luxury and history combine in every watchmaking masterpiece. We are a store specializing in the sale of expensive watches from renowned global brands.
                         </p>
                         <p className={mainStyles.text}>
-                            Наш бренд работает с 2003 года и оставляет покупателей довольными по сей день
+                            Our brand has been operating since 2003 and continues to delight customers to this day
                         </p>
                     </div>
                     <div className={styles.about}>
                         <div className={styles.aboutTop}>
                             <div className={styles.aboutLeft}>
                                 <p className={mainStyles.text}>
-                                    Мы знаем, что для вас часы - это не просто способ отслеживать время. Они становятся вашими союзниками, выражением стиля и индивидуальности. Поэтому мы стараемся предоставить вам коллекцию, которая отражает ваш уникальный вкус и предпочтения.
+                                    We understand that for you, a watch is not just a way to track time. They become your allies, an expression of style and individuality. That is why we strive to provide you with a collection that reflects your unique taste and preferences.
                                 </p>
                                 <img src="./rich-tales/about-images/about-image1.jpg" alt="" className={styles.aboutLeftImg} />
                             </div>
                             <div className={styles.aboutRight}>
                                 <p className={styles.text}>
-                                    Мы работаем только с официальными поставщиками и дилерами, чтобы гарантировать подлинность и качество всех часов, представленных на нашем сайте.
+                                    We work only with official suppliers and dealers to guarantee the authenticity and quality of all watches presented on our website.
                                 </p>
                                 <div className={styles.brands}>
                                     {BrandsData.map((brand, index)=>
@@ -47,16 +47,16 @@ export default function About() {
                     </div>
                     <div className={styles.aboutDown}>
                         <Link href='/catalogue'>
-                            <button className={`${mainStyles.btn} ${styles.aboutBtn}`}>Каталог</button>
+                            <button className={`${mainStyles.btn} ${styles.aboutBtn}`}>Catalogue</button>
                         </Link>
                     </div>
                 </div>
                 <div className={styles.contactsInner}>
-                    <h3 className={mainStyles.title}>Мы готовы связаться с вами</h3>
+                    <h3 className={mainStyles.title}>We are Ready to Get in Touch With You</h3>
                     <ul className={styles.contacts}>
                         <li className={styles.contact}>
                             <Link href='tel: 78885553535'>
-                                Телефон: +7 888 555 35 35
+                                Phone: +7 888 555 35 35
                             </Link>
                         </li>
                         <li className={styles.contact}>
@@ -66,7 +66,7 @@ export default function About() {
                         </li>
                         <li className={styles.contact}>
                             <Link target='a_blank' href='https://www.google.com/maps/place/%D0%A2%D0%B2%D0%B5%D1%80%D1%81%D0%BA%D0%B0%D1%8F+%D1%83%D0%BB.,+22%D0%90+%D1%81%D1%82%D1%80%D0%BE%D0%B5%D0%BD%D0%B8%D0%B5+3,+%D0%9C%D0%BE%D1%81%D0%BA%D0%B2%D0%B0,+127006/@55.7675407,37.601525,17.25z/data=!4m6!3m5!1s0x46b54a3f4fa6e1a1:0xcbd26d4ab36ef069!8m2!3d55.767577!4d37.602612!16s%2Fg%2F11csjj88x5?entry=ttu'>
-                                Адрес магазина: Тверская ул., 22а стр.3, Москва, 115114
+                                Store Address: Tverskaya St., 22a building 3, Moscow, 115114
                             </Link>
                         </li>
                     </ul>
@@ -76,7 +76,7 @@ export default function About() {
                     </div>
                     <div className={styles.contactsDown}>
                         <Link href='/contacts'>
-                            <button className={`${mainStyles.btn} ${styles.contactsBtn}`}>Подробнее</button>
+                            <button className={`${mainStyles.btn} ${styles.contactsBtn}`}>Learn More</button>
                         </Link>
                     </div>
                 </div>
